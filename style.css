@@ -1,0 +1,240 @@
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+/* Custom CSS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+.graph-section{
+	/*margin: 0 100px;*/
+}
+.graph-section .graph-img{
+	background-color: #2b3333;
+}
+.graph-section .graph-img img{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.graph-section .h1-tag {
+    font-size: 30px;
+    text-align: center;
+    background-color: rgb(255, 127, 14);
+    color: #fff;
+    padding: 15px 0 18px;
+    margin: 0;
+    border-top: 1px solid #3c3c3c;
+    letter-spacing: -0.5px;
+    font-weight: 500;
+}
+.graph-section .h2-tag {
+    font-size: 27px;
+    text-align: center;
+    color: rgb(31, 119, 180);
+    margin: 34px 0 0;
+    letter-spacing: -0.4px;
+    font-weight: 500;
+}
+.graph-section .p-tag {
+    font-size: 16px;
+    text-align: center;
+    color: #6b6b6b;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+}
+.graph-section .p-tag a:hover{
+	color: rgb(229 105 86);
+	font-weight: 500;
+}
+.graph-section .p-last-tag {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(95 97 97);
+}
+.graph-section form {
+    font-size: 16px;
+    text-align: center;
+    color: #444;
+}
+.graph-section form .input{
+    width: 250px;
+    padding: 8px 12px;
+    border: 1px solid #bfbfbf
+}
+.graph-section form .input-btn {
+    padding: 8px 30px;
+    border: 1px solid #bfbfbf;
+    background-color: #bfbfbf;
+    margin-left: -4px;
+    transition: 0.3s ease-in-out;
+}
+.graph-section form .input-btn:hover {
+	cursor: pointer;
+    border: 1px solid rgb(255, 127, 14);
+    background-color: rgb(255, 127, 14);
+}
+
+/* About Section CSS */
+.about-section{
+	margin-bottom: 80px;
+}
+.about-section h1,h2{
+	font-size: 24px;
+	text-align: left;
+	color: #2b3333;
+	margin: 34px 0 10px;
+	letter-spacing: -0.4px;
+	font-weight: 500;
+}
+.about-section span,p{
+    font-size: 16px;
+    text-align: left;
+    color: #565656;
+    letter-spacing: -0.1px;
+    font-weight: 400;
+}
+
+/* Footer Section CSS */
+footer {
+	position: relative;
+	background-color: #2b3333;
+}
+footer::before {
+	content: "";
+	display: block;
+	position: absolute;
+	background-image: url('../images/footer.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	filter: opacity(0.45);
+}
+footer .full-footer{
+	padding: 75px 0;
+}
+footer .cmn-footer h3 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #8251e2;
+    text-transform: uppercase;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+}
+footer .cmn-footer p {
+	font-size: 16px;
+    letter-spacing: -0.8px;
+    margin-bottom: 20px;
+    color: #adabab;
+    margin-top: 21px;
+}
+footer .footer-one-clm ul{
+	padding: 0;
+}
+footer .social-icons .fa-facebook, .fa-twitter, .fa-linkedin, .fa-youtube, .fa-google{
+    background-color: #1f77b4;
+    color: #f7f7f7 !important;
+    list-style: none;
+    border-radius: 100%;
+    width: 33px;
+    display: inline-block;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+    margin-right: 4px;
+    transition: 0.35s ease-in-out;
+}
+footer .social-icons .fa:hover{
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+}
+footer .social-icons .fa-facebook:hover{
+	background-color: #4267B2;
+}
+footer .social-icons .fa-twitter:hover{
+	background-color: #1C9EED;
+}
+footer .social-icons .fa-linkedin:hover{
+	background-color: #1A81BA;
+}
+footer .social-icons .fa-youtube:hover{
+	background-color: #FF0000;
+}
+footer .social-icons .fa-google:hover{
+	background-color: #F9B20A;
+}
+footer .cmn-footer h4 {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 2;
+    letter-spacing: -0.2px;
+    color: #e56956;
+}
+footer .links ul li{
+	font-size: 16px;
+    letter-spacing: -0.2px;
+    color: #6f6f6f;
+}
+footer .links .recent-links{
+	padding: 0;
+}
+footer .links .recent-links a{
+	text-decoration: none;
+}
+footer .links .recent-links li{
+	padding-left: 8px;
+	list-style: none;
+	display: block;
+	line-height: 1.7;
+	transition: 0.3s ease-in-out;
+	color: #949393;
+}
+footer .links .recent-links li:hover{
+	margin-left: 6px;
+}
+footer .links .recent-links .fa{
+	 color: #c4b1e8;
+    font-size: 14px;
+}
+footer .footer-four-clm{
+	padding-left: 0;
+}
+footer .copyright {
+    padding: 20px 0;
+    background-color: #272929;
+    color: #828282;
+    font-size: 14px;
+}
+footer .copyright a{
+	text-decoration: none;
+}
+footer .copyright a:hover{
+	color: #e56956;
+}
+footer .copyright .right{
+	text-align: right;
+	transition: 0.3s ease-in-out;
+}
+footer .copyright .right:hover{
+	margin-left: -3px;
+}
+footer .copyright span.right,span.left{
+	color: #6f6f6f;
+	transition: 0.3s ease-in-out;
+}
+footer .copyright .right span:hover{
+	color: #e56956;
+}
+
